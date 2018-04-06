@@ -1,0 +1,14 @@
+#goal definition
+string target_landmark
+string direction_landmark
+string human
+
+---
+#result definition
+geometry_msgs/PoseStamped robot_pose
+geometry_msgs/PoseStamped human_pose
+string[] pointed_landmarks
+
+---
+#feedback
+
