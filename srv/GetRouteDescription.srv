@@ -1,0 +1,5 @@
+string start_place
+string goal_shop
+---
+string region_route
+bool success

@@ -1,0 +1,4 @@
+string world_name
+string fact_id
+---
+bool success
