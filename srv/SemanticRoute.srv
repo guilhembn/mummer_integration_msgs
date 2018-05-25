@@ -1,8 +1,0 @@
-string from
-string to
-string persona
-bool signpost
----
-Route[] routes
-float32[] costs
-string[] goals
