@@ -1,0 +1,5 @@
+string world
+string name
+---
+bool has_mesh
+bool success

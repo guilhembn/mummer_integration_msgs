@@ -1,0 +1,26 @@
+<package>
+  <name>semantic_route_description_msgs</name>
+  <version>0.0.2</version>
+  <description>
+    This package holds the semantic route description messages. 
+    These messages are currently used by
+    the <a href="https://github.com/LAAS-HRI/semantic_route_description">semantic_route_description package</a>
+  </description>
+  <maintainer email="15892716+amdia@users.noreply.github.com">amdia</maintainer> 
+  <license>BSD-3</license>
+
+  <author email="15892716+amdia@users.noreply.github.com">amdia</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+  <build_depend>message_runtime</build_depend>
+
+  <run_depend>std_msgs</run_depend>
+  <run_depend>message_generation</run_depend>
+  <run_depend>message_runtime</run_depend>
+
+  <export>
+    <architecture_independent/>
+  </export>
+</package>

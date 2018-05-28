@@ -1,0 +1,7 @@
+string STAND_INIT=StandInit
+string STAND_ZERO=StandZero
+string CROUCH=Crouch
+
+string posture_name
+float32 speed
+---

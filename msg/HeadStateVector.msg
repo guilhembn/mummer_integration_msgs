@@ -1,3 +1,0 @@
-float32 monitoring_factor
-float32 acting_factor
-float32 speaking_factor

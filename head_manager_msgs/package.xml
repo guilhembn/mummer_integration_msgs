@@ -1,31 +1,31 @@
-<?xml version="1.0"?>
 <package>
-
-  <name>mummer_integration_msgs</name>
-  <version>0.0.1</version>
-  <description>Messages used for mummer integration</description>
-
-  <maintainer email="gsarthou@laas.fr">srth</maintainer>
-
+  <name>head_manager_msgs</name>
+  <version>0.0.2</version>
+  <description>
+    This package holds the head manager messages. 
+    These messages are currently used by
+    the <a href="https://github.com/LAAS-HRI/head_manager">head_manager package</a>
+  </description>
+  <maintainer email="15892716+amdia@users.noreply.github.com">amdia</maintainer>
+ 
   <license>BSD-3</license>
 
-  <author email="gsarthou@laas.fr">srth</author>
+  <author email="15892716+amdia@users.noreply.github.com">amdia</author>
 
   <buildtool_depend>catkin</buildtool_depend>
-  <build_depend>message_generation</build_depend>
-  <build_depend>roscpp</build_depend>
-  <build_depend>rospy</build_depend>
+
   <build_depend>std_msgs</build_depend>
   <build_depend>geometry_msgs</build_depend>
   <build_depend>message_runtime</build_depend>
   <build_depend>actionlib_msgs</build_depend>
 
-  <run_depend>roscpp</run_depend>
-  <run_depend>rospy</run_depend>
   <run_depend>std_msgs</run_depend>
   <run_depend>geometry_msgs</run_depend>
   <run_depend>message_generation</run_depend>
   <run_depend>message_runtime</run_depend>
   <run_depend>actionlib_msgs</run_depend>
 
+  <export>
+    <architecture_independent/>
+  </export>
 </package>
