@@ -12,7 +12,8 @@ add_service_files(
   DIRECTORY srv
   FILES
   REST.srv
-  standard_service.srv)
+  standard_service.srv
+  OntologeniusService.srv)
 
 generate_messages(DEPENDENCIES std_msgs)
 

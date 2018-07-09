@@ -12,7 +12,9 @@ add_service_files(
   FILES
   GetPointingConfig.srv
   LookAt.srv
-  PointAt.srv)
+  PointAt.srv
+  CanPointAt.srv
+  CanLookAt.srv)
 
 #add_action_files(
 #  FILES

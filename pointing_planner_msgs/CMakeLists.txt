@@ -10,7 +10,8 @@ find_package(catkin REQUIRED COMPONENTS geometry_msgs message_generation std_msg
 add_service_files(
   DIRECTORY srv
   FILES
-  PointingPlanner.srv)
+  PointingPlanner.srv
+  VisibilityScore.srv)
 
 add_action_files(
   FILES

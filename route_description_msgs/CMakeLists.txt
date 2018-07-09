@@ -10,7 +10,8 @@ find_package(catkin REQUIRED COMPONENTS message_generation std_msgs)
 add_service_files(
   DIRECTORY srv
   FILES
-  GetRouteDescription.srv)
+  GetRouteDescription.srv
+  VerbalizeRegionRoute.srv)
 
 generate_messages(DEPENDENCIES std_msgs)
 

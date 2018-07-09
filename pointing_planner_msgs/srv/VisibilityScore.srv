@@ -1,0 +1,5 @@
+string agent_name
+string target_name
+---
+float32 score
+bool is_visible
